@@ -1,0 +1,6 @@
+framework module sMock {
+    umbrella header "sMock.h"
+    link framework "XCTest"
+    export *
+    module * { export * }
+}
